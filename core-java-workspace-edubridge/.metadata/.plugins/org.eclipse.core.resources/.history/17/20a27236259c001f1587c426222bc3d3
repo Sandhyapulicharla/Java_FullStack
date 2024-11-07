@@ -1,0 +1,18 @@
+package nov6;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=0,b=1;
+		int c;
+		while(c<=100) {
+			c=a+b;
+			System.out.println(c);
+			a=b;
+			b=c;
+		}
+
+	}
+
+}
